@@ -12,3 +12,10 @@ for student in students:
     if student == "shyam":
         continue;
     print(student)
+
+i=0
+while i < len(students):
+    if students == "radha":
+        break;
+    print(students[i])
+    i += 1
