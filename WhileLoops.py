@@ -10,3 +10,9 @@ i = 4
 while i >= 0:
     print(i * "*")
     i = i - 1
+
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday","Sunday"]
+i=0
+while i <= len(days):
+    print(days[i])
+    i=i+1
