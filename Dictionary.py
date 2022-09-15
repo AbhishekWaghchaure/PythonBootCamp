@@ -4,6 +4,6 @@ print(marks)
 print(marks["chemistry"])
 marks["physics"] = 97; #adding new key value in dictionary
 print(marks)
+marks["physics"] = 97;
 
-marks["physics"] = 99
 print(marks)

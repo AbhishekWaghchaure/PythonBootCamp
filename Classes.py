@@ -55,3 +55,4 @@ class Student(Person):
 
 s = Student("Ram", "krishna", "DSA", "2022")
 s.print()
+s.printName()
