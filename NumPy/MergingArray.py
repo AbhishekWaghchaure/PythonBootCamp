@@ -12,7 +12,7 @@ print(conArr1)
 conArr2 = np.vstack((arr1, arr2))
 print(conArr2)
 
-conArr3 = np.concatenate((arr1,arr2), axis = 1)
+conArr3 = np.concatenate((arr1, arr2), axis = 1)
 print(conArr3)
 
 conArr4 = np.concatenate((arr1, arr2), axis = 0)
