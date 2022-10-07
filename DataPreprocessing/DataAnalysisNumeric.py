@@ -25,4 +25,3 @@ s=0
 for i in df['Reviews']:
     s += int(i)
 print(int(s/len(df['Reviews'])))
-
