@@ -31,4 +31,5 @@ plt.scatter(x_pca[:,0],x_pca[:,1],c = data['target'], cmap='plasma')
 plt.xlabel('First principle component')
 plt.ylabel('Second principle component')
 
+print(data.keys())
 
