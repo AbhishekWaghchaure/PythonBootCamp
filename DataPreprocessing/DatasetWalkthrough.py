@@ -1,7 +1,7 @@
 import pandas as pd
 pd.set_option('display.width', 400)
 pd.set_option('display.max_columns', 10)
-data = pd.read_csv("googleplaystore.csv")
+data = pd.read_csv("../DataAnalysis/googleplaystore.csv")
 print(data)
 print(data.head())
 print(data.columns)
